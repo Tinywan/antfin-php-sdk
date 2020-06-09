@@ -1,0 +1,23 @@
+{
+    "name": "Tinywan/antfin-php-sdk",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "antcloud"
+    ],
+    "description": "蚂蚁金服金融API平台网关第三方PHP SDK",
+    "autoload": {
+        "psr-4": {
+            "AntCloudSDKCore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AntCloudTests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}

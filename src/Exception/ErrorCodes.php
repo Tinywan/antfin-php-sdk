@@ -1,0 +1,19 @@
+<?php
+
+namespace AntCloudSDKCore\Exception;
+
+/**
+ * 客户端调用错误类别
+ * class ErrorCodes
+ * @package AntCloudSDKCore\Exception
+ */
+class ErrorCodes
+{
+    const ANTCLOUD_SDK_MISSING_PARAMETER = 'MISSING_PARAMETER';
+    const ANTCLOUD_SDK_INVALID_PARAMETER = 'INVALID_PARAMETER';
+    const ANTCLOUD_SDK_TRANSPORT_ERROR = 'TRANSPORT_ERROR';
+    const ANTCLOUD_SDK_BAD_SIGNATURE = 'INVALID_RESPONSE_SIGNATURE';
+    const ANTCLOUD_SDK_UNKNOWN_ERROR = 'UNKNOWN_ERROR';
+    const ANTCLOUD_SDK_ACCESS_DENIED = 'ACCESS_DENIED';
+    const ANTCLOUD_SDK_METHOD_NOT_FOUND = 'METHOD_NOT_FOUND';
+}
